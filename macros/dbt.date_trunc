@@ -1,0 +1,1 @@
+to_date(to_varchar(date_trunc('day',v_date),'yyyy-mm-dd'),'yyyy-mm-dd')
