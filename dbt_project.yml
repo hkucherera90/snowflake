@@ -39,4 +39,6 @@ models:
   snowflake_project:
     # Applies to all files under models/example/
     staging:
-      +materialized: view    
+      +materialized: view 
+    marts:
+      +materialized: table
