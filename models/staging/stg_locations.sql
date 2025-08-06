@@ -12,7 +12,7 @@ renamed as (
         id as location_id,
         name as location_name,
         tax_rate,
-        {{ dbt.date_trunc('day', 'opened_at') }} as opened_date
+        {{ date_trunc('opened_at') }} as opened_date
     from source
 )
 
