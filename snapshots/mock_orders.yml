@@ -3,7 +3,7 @@ snapshots:
     relation: source('ecom', 'raw_orders')
     config:
       schema: snapshots
-      database: analytics_dev
+      database: analytics
       unique_key: id
       strategy: check
       check_cols: ["id", "user_id", "order_date", "status"]
