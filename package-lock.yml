@@ -1,8 +1,17 @@
 packages:
   - name: dbt_utils
     package: dbt-labs/dbt_utils
-    version: 0.7.1
+    version: 0.9.0
   - name: dbt_meta_testing
     package: tnightengale/dbt_meta_testing
     version: 0.3.6
-sha1_hash: cea641473f079bdc8ee41ca472656a413d54c471
+  - name: dbt_expectations
+    package: metaplane/dbt_expectations
+    version: 0.10.9
+  - name: audit_helper
+    package: dbt-labs/audit_helper
+    version: 0.12.1
+  - name: dbt_date
+    package: godatadriven/dbt_date
+    version: 0.16.1
+sha1_hash: f7b8c0ee221aa8a50663a4e67ca96cc7d7941f86
